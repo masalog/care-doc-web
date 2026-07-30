@@ -18,14 +18,19 @@
     <div id="login-overlay">
         <div class="login-box">
             <h2>認証ログイン</h2>
+
             <div class="form-group">
                 <label for="login-email">メールアドレス</label>
-                <input type="email" id="login-email" autocomplete="username">
+                <input type="email" id="login-email" autocomplete="username"
+                       value="guest@example.com">
             </div>
+
             <div class="form-group">
                 <label for="login-password">パスワード</label>
-                <input type="password" id="login-password" autocomplete="current-password">
+                <input type="password" id="login-password" autocomplete="current-password"
+                       value="guest@Pass1">
             </div>
+
             <button type="button" class="btn btn-primary" onclick="doLogin()">ログイン</button>
             <div id="login-message" class="message"></div>
         </div>
