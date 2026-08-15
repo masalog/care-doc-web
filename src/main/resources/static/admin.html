@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CareDocWeb - 管理画面</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/amazon-cognito-identity-js@6/dist/amazon-cognito-identity.min.js"></script>
 </head>
 <body>
     <header>
-        <h1>CareDocWeb 管理画面(デモ運用のため、新規登録・編集・削除はできません）</h1>
+        <div class="header-title-row">
+            <h1>CareDocWeb 管理画面　⚠️デモ運用のため、新規登録・編集・削除はできません</h1>
+            <a href="index.html" class="admin-link">→ PDF生成に戻る</a>
+        </div>
         <p>利用者データ・共通設定の管理</p>
-        <a href="index.html" class="admin-link">→ PDF生成に戻る</a>
     </header>
 
     <!-- ログインオーバーレイ(認証前はこれだけ表示) -->

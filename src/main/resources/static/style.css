@@ -29,6 +29,21 @@ header p {
     opacity: 0.8;
 }
 
+.header-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-catchcopy {
+    flex: 1;
+    min-width: 0;
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: bold;
+    color: white;
+}
+
 .admin-link {
     position: absolute;
     top: 20px;
