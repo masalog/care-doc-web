@@ -59,10 +59,15 @@ header p {
 .header-catchcopy {
     flex: 1;
     min-width: 0;
-    font-size: 18px;
+    font-size: 14px;
     opacity: 0.9;
     font-weight: bold;
     color: white;
+}
+
+.header-notice {
+    font-size: 14px;
+    opacity: 0.9;
 }
 
 .admin-link {
