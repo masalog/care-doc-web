@@ -293,3 +293,44 @@ h3 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     width: 320px;
 }
+
+/* フッター */
+footer {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer ul li {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 6px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+footer ul li::before {
+    content: "※ ";
+}
+
+.footer-credit {
+    max-width: 900px;
+    margin: 12px auto 0;
+    font-size: 13px;
+    opacity: 0.85;
+    text-align: center;
+}
+
+.footer-credit a {
+    color: white;
+    text-decoration: underline;
+}
