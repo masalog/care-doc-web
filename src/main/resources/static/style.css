@@ -68,6 +68,8 @@ header p {
 .header-notice {
     font-size: 14px;
     opacity: 0.9;
+    font-weight: bold;
+    color: white;
 }
 
 .admin-link {
