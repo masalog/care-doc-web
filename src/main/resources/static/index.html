@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareDocWeb - 介護認定申請書 PDF生成</title>
+    <title>CareDocWeb - 介護認定申請書 作成アプリ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>CareDocWeb</h1>
-        <p>介護認定申請書 PDF生成システム</p>
-        <a href="admin.html" class="admin-link">→ 管理画面へ</a>
+        <div class="header-title-row">
+            <h1>CareDocWeb</h1>
+            <p class="header-catchcopy">💡このアプリを使うと、手書きやExcelで10分以上かかる介護認定申請書の作成を自動化できます！</p>
+            <a href="admin.html" class="admin-link">→ 管理画面へ</a>
+        </div>
+        <p>介護認定申請書 作成アプリ</p>
     </header>
 
     <main>
         <section class="section">
-            <h2>申請書PDF生成</h2>
+            <h2>申請書PDF作成</h2>
             <form id="pdf-form">
                 <div class="form-group">
                     <label for="member-select">利用者を選択</label>
@@ -55,6 +58,14 @@
             <div id="pdf-message" class="message"></div>
         </section>
     </main>
+
+    <footer>
+        <ul>
+            <li>本テンプレートは、東京都中央区が公開している介護認定申請書の様式を基に作成したものです。</li>
+            <li>個人番号、医療保険、特定疾病名の項目は、自動転記の対象としておりません。</li>
+        </ul>
+        <p class="footer-credit">© 2026 masalog — <a href="https://github.com/masalog" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
 
     <script src="app.js"></script>
 </body>

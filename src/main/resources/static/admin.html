@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <h1>CareDocWeb 管理画面(デモ運用のため、新規登録・編集・削除はできません）</h1>
+        <div class="header-title-row">
+            <h1>CareDocWeb 管理画面　⚠️デモ運用のため、新規登録・編集・削除はできません</h1>
+            <a href="index.html" class="admin-link">→ PDF生成に戻る</a>
+        </div>
         <p>利用者データ・共通設定の管理</p>
-        <a href="index.html" class="admin-link">→ PDF生成に戻る</a>
     </header>
 
     <!-- ログインオーバーレイ(認証前はこれだけ表示) -->
@@ -253,6 +255,14 @@
             <div id="settings-message" class="message"></div>
         </section>
     </main>
+
+    <footer>
+        <ul>
+            <li>本テンプレートは、東京都中央区が公開している介護認定申請書の様式を基に作成したものです。</li>
+            <li>個人番号、医療保険、特定疾病名の項目は、自動転記の対象としておりません。</li>
+        </ul>
+        <p class="footer-credit">© 2026 masalog — <a href="https://github.com/masalog" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
 
     <script src="app.js"></script>
     <script src="auth.js"></script>
