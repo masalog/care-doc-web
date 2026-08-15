@@ -1,3 +1,19 @@
+/* ── Noto Sans JP 自己ホスト ── */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/noto-sans-jp/NotoSansJP-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/noto-sans-jp/NotoSansJP-Bold.woff2') format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
