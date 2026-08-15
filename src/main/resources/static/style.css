@@ -355,3 +355,24 @@ footer ul li::before {
     color: white;
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .header-title-row {
+        flex-wrap: wrap;          /* ← 横並びを折り返し可能にする */
+        align-items: flex-start;  /* ← 上揃えにする */
+    }
+
+    .header-title-row h1 {
+        flex: 1 1 100%;           /* ← h1 を1行使う */
+        min-width: 0;             /* ← はみ出し防止 */
+    }
+
+    .header-catchcopy {
+        flex-basis: 100%;         /* ← キャッチコピーも1行使う */
+    }
+
+    .admin-link {
+        margin-left: 0;           /* ← 右上固定を解除 */
+        white-space: normal;      /* ← 折り返し可能にする */
+    }
+}
