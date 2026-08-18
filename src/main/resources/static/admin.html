@@ -19,24 +19,39 @@
 
     <!-- ログインオーバーレイ(認証前はこれだけ表示) -->
     <div id="login-overlay">
-        <div class="login-box">
-            <h2>認証ログイン</h2>
-
-            <div class="form-group">
-                <label for="login-email">メールアドレス</label>
-                <input type="email" id="login-email" autocomplete="username"
-                       value="guest@example.com">
+        <header>
+            <div class="header-title-row">
+                <h1>CareDocWeb</h1>
+                <p class="header-catchcopy">💡このアプリを使うと、手書きやExcelだと10分以上かかる介護認定申請書の作成が1秒で完了します！</p>
             </div>
-
-            <div class="form-group">
-                <label for="login-password">パスワード</label>
-                <input type="password" id="login-password" autocomplete="current-password"
-                       value="guest@Pass1">
+            <p>介護認定申請書 作成アプリ</p>
+        </header>
+        <main>
+            <div class="section">
+                <h2>認証ログイン</h2>
+                <div class="form-group">
+                    <label for="login-email">メールアドレス</label>
+                    <input type="email" id="login-email" autocomplete="username"
+                           value="guest@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">パスワード</label>
+                    <input type="password" id="login-password" autocomplete="current-password"
+                           value="guest@Pass1">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="doLogin()">ログイン</button>
+                <div id="login-message" class="message"></div>
             </div>
-
-            <button type="button" class="btn btn-primary" onclick="doLogin()">ログイン</button>
-            <div id="login-message" class="message"></div>
-        </div>
+        </main>
+        <footer>
+            <ul>
+                <li>本テンプレートは、東京都中央区が公開している介護認定申請書の様式を参考に作成したものです。正式な手続きの際には、中央区が提供する最新の書式をご使用ください。</li>
+                <li>本書類の利用により生じた損害等について、作成者は一切の責任を負いません。</li>
+                <li>医療保険と特定疾病名の項目は、自動転記の対象としておりません。</li>
+                <li>個人番号は、現時点では記載が求められないことが多いため、自動転記の対象としていません。</li>
+            </ul>
+            <p class="footer-credit">© 2026 masalog — <a href="https://github.com/masalog" target="_blank" rel="noopener">GitHub</a></p>
+        </footer>
     </div>
 
     <nav>

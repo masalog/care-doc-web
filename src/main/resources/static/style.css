@@ -27,7 +27,7 @@ html {
 
 body {
     font-family: 'Noto Sans JP', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
     zoom: 1.15;
@@ -121,10 +121,7 @@ main {
 }
 
 .section {
-    background: white;
-    border-radius: 8px;
     padding: 30px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hidden {
@@ -323,19 +320,19 @@ h3 {
 #login-overlay {
     position: fixed;
     inset: 0;
-    background: #f5f5f5;
+    background: #ffffff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     z-index: 1000;
+    overflow-y: auto;
 }
 
-.login-box {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    width: 320px;
+#login-overlay main {
+    flex: 1;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 400px;
 }
 
 /* フッター */
