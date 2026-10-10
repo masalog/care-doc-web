@@ -37,7 +37,7 @@
 			<dependency>
 				<groupId>tools.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
-				<version>3.1.6</version> <!-- 修正済みバージョン -->
+				<version>3.1.7</version> <!-- 修正済みバージョン -->
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
